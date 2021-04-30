@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/nyc_crime_covid/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/nyc_crime_covid/static/js/main.77cd44df.chunk.js",
-    "main.js.map": "/nyc_crime_covid/static/js/main.77cd44df.chunk.js.map",
-    "runtime-main.js": "/nyc_crime_covid/static/js/runtime-main.12fb8de1.js",
-    "runtime-main.js.map": "/nyc_crime_covid/static/js/runtime-main.12fb8de1.js.map",
-    "static/js/2.4347eedc.chunk.js": "/nyc_crime_covid/static/js/2.4347eedc.chunk.js",
-    "static/js/2.4347eedc.chunk.js.map": "/nyc_crime_covid/static/js/2.4347eedc.chunk.js.map",
-    "static/js/3.70e34b7c.chunk.js": "/nyc_crime_covid/static/js/3.70e34b7c.chunk.js",
-    "static/js/3.70e34b7c.chunk.js.map": "/nyc_crime_covid/static/js/3.70e34b7c.chunk.js.map",
+    "main.css": "/nyc_crime_covid/static/css/main.30bc7fa7.chunk.css",
+    "main.js": "/nyc_crime_covid/static/js/main.179c357c.chunk.js",
+    "main.js.map": "/nyc_crime_covid/static/js/main.179c357c.chunk.js.map",
+    "runtime-main.js": "/nyc_crime_covid/static/js/runtime-main.45a388de.js",
+    "runtime-main.js.map": "/nyc_crime_covid/static/js/runtime-main.45a388de.js.map",
+    "static/js/2.0c13e38a.chunk.js": "/nyc_crime_covid/static/js/2.0c13e38a.chunk.js",
+    "static/js/2.0c13e38a.chunk.js.map": "/nyc_crime_covid/static/js/2.0c13e38a.chunk.js.map",
+    "static/js/3.783cbc8d.chunk.js": "/nyc_crime_covid/static/js/3.783cbc8d.chunk.js",
+    "static/js/3.783cbc8d.chunk.js.map": "/nyc_crime_covid/static/js/3.783cbc8d.chunk.js.map",
     "index.html": "/nyc_crime_covid/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/nyc_crime_covid/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.4347eedc.chunk.js.LICENSE.txt": "/nyc_crime_covid/static/js/2.4347eedc.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/nyc_crime_covid/static/media/logo.6ce24c58.svg"
+    "static/css/main.30bc7fa7.chunk.css.map": "/nyc_crime_covid/static/css/main.30bc7fa7.chunk.css.map",
+    "static/js/2.0c13e38a.chunk.js.LICENSE.txt": "/nyc_crime_covid/static/js/2.0c13e38a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.12fb8de1.js",
-    "static/js/2.4347eedc.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.77cd44df.chunk.js"
+    "static/js/runtime-main.45a388de.js",
+    "static/js/2.0c13e38a.chunk.js",
+    "static/css/main.30bc7fa7.chunk.css",
+    "static/js/main.179c357c.chunk.js"
   ]
 }
