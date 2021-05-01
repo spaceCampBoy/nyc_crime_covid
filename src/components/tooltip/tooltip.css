@@ -1,0 +1,12 @@
+.line-chart__circle{
+    fill: steelblue;
+}
+
+.focus {
+
+}
+
+.overlay {
+    fill: none;
+    pointer-events: all;
+}

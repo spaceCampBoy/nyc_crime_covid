@@ -1,0 +1,13 @@
+.base__tooltip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #cdebf9;
+    color: #000000;
+    border: 1px solid #45b3e7;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 0 10px 0 10px ;
+    opacity: 0;
+    text-align: left;
+  }

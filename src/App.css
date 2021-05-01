@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+.trend__base-area {
+	fill: #f7d5d0;
+	fill-opacity: 0.4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.trend__base-line {
+	fill: none;
+	stroke: #f7d5d0;
+	stroke-width: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.trend__area {
+	fill: #f7d5d0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.trend__line {
+	fill: none;
+	stroke: #e6532e;
+	stroke-width: 2;
 }
 
-.App-link {
-  color: #61dafb;
+.trend__axis .domain {
+	display: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.trend__axis .tick text {
+	color: #586f7a;
+}
+
+.trend__x-axis .tick:last-of-type text {
+	text-anchor: end;
+}
+
+.trend__y-axis line {
+	stroke-dasharray: 3, 3;
+	stroke: #d3dfe6;
+}
+
+.covid_line_chart{
+	height: 500px;
+	width: auto;
 }
