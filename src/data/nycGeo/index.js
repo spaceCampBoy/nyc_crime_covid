@@ -1,1 +1,1 @@
-export { default as nyc_borough_geo } from "./boroughs.geojson"
+export { default as nyc_borough_geo } from "./boroughs.json"

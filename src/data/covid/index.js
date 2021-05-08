@@ -1,1 +1,0 @@
-export { default as covid_cases_7day_avg } from "./covid_cases_7day_avg.json"
