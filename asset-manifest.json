@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nyc_crime_covid/static/css/main.5821df0d.chunk.css",
-    "main.js": "/nyc_crime_covid/static/js/main.dc87e4f4.chunk.js",
-    "main.js.map": "/nyc_crime_covid/static/js/main.dc87e4f4.chunk.js.map",
+    "main.js": "/nyc_crime_covid/static/js/main.af557555.chunk.js",
+    "main.js.map": "/nyc_crime_covid/static/js/main.af557555.chunk.js.map",
     "runtime-main.js": "/nyc_crime_covid/static/js/runtime-main.1afc9d6a.js",
     "runtime-main.js.map": "/nyc_crime_covid/static/js/runtime-main.1afc9d6a.js.map",
     "static/js/2.87ac7480.chunk.js": "/nyc_crime_covid/static/js/2.87ac7480.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1afc9d6a.js",
     "static/js/2.87ac7480.chunk.js",
     "static/css/main.5821df0d.chunk.css",
-    "static/js/main.dc87e4f4.chunk.js"
+    "static/js/main.af557555.chunk.js"
   ]
 }
