@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ResponsiveChoropleth, ResponsiveGeoMap } from '@nivo/geo';
+import { ResponsiveGeoMap } from '@nivo/geo';
 import { nyc_borough_geo } from "../../data/nycGeo";
 import crime_data from "../../data/crimeData/crime_counts.json";
 import selected_colors from "../../data/boroColors_selected.json";
@@ -21,7 +21,7 @@ export default function NYCMap({ data, setFilters }) {
         const cur = colors[name];
         const selected = selected_colors[name];
         const unselected = unselected_colors[name];
-        let next = cur == selected ? unselected : selected;
+        let next = cur === selected ? unselected : selected;
         setColors({...colors, [name]: next});
         setFilters(name);
     }

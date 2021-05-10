@@ -1,0 +1,782 @@
+[
+  {
+    "category": "BURGLARY",
+    "data": [
+      {
+        "MONTH": "Jan",
+        "COUNT_2019": 425,
+        "COUNT_2020": 502
+      },
+      {
+        "MONTH": "Feb",
+        "COUNT_2019": 355,
+        "COUNT_2020": 399
+      },
+      {
+        "MONTH": "Mar",
+        "COUNT_2019": 418,
+        "COUNT_2020": 478
+      },
+      {
+        "MONTH": "Apr",
+        "COUNT_2019": 361,
+        "COUNT_2020": 520
+      },
+      {
+        "MONTH": "May",
+        "COUNT_2019": 360,
+        "COUNT_2020": 718
+      },
+      {
+        "MONTH": "Jun",
+        "COUNT_2019": 334,
+        "COUNT_2020": 844
+      },
+      {
+        "MONTH": "Jul",
+        "COUNT_2019": 364,
+        "COUNT_2020": 350
+      },
+      {
+        "MONTH": "Aug",
+        "COUNT_2019": 407,
+        "COUNT_2020": 387
+      },
+      {
+        "MONTH": "Sep",
+        "COUNT_2019": 354,
+        "COUNT_2020": 513
+      },
+      {
+        "MONTH": "Oct",
+        "COUNT_2019": 363,
+        "COUNT_2020": 531
+      },
+      {
+        "MONTH": "Nov",
+        "COUNT_2019": 355,
+        "COUNT_2020": 319
+      },
+      {
+        "MONTH": "Dec",
+        "COUNT_2019": 355,
+        "COUNT_2020": 495
+      }
+    ]
+  },
+  {
+    "category": "CRIMINAL TRESPASS",
+    "data": [
+      {
+        "MONTH": "Jan",
+        "COUNT_2019": 377,
+        "COUNT_2020": 206
+      },
+      {
+        "MONTH": "Feb",
+        "COUNT_2019": 275,
+        "COUNT_2020": 194
+      },
+      {
+        "MONTH": "Mar",
+        "COUNT_2019": 360,
+        "COUNT_2020": 145
+      },
+      {
+        "MONTH": "Apr",
+        "COUNT_2019": 289,
+        "COUNT_2020": 123
+      },
+      {
+        "MONTH": "May",
+        "COUNT_2019": 328,
+        "COUNT_2020": 189
+      },
+      {
+        "MONTH": "Jun",
+        "COUNT_2019": 234,
+        "COUNT_2020": 91
+      },
+      {
+        "MONTH": "Jul",
+        "COUNT_2019": 215,
+        "COUNT_2020": 68
+      },
+      {
+        "MONTH": "Aug",
+        "COUNT_2019": 288,
+        "COUNT_2020": 68
+      },
+      {
+        "MONTH": "Sep",
+        "COUNT_2019": 205,
+        "COUNT_2020": 76
+      },
+      {
+        "MONTH": "Oct",
+        "COUNT_2019": 253,
+        "COUNT_2020": 145
+      },
+      {
+        "MONTH": "Nov",
+        "COUNT_2019": 238,
+        "COUNT_2020": 126
+      },
+      {
+        "MONTH": "Dec",
+        "COUNT_2019": 188,
+        "COUNT_2020": 121
+      }
+    ]
+  },
+  {
+    "category": "DANGEROUS DRUGS",
+    "data": [
+      {
+        "MONTH": "Jan",
+        "COUNT_2019": 2132,
+        "COUNT_2020": 1562
+      },
+      {
+        "MONTH": "Feb",
+        "COUNT_2019": 2007,
+        "COUNT_2020": 1521
+      },
+      {
+        "MONTH": "Mar",
+        "COUNT_2019": 2160,
+        "COUNT_2020": 1137
+      },
+      {
+        "MONTH": "Apr",
+        "COUNT_2019": 1981,
+        "COUNT_2020": 519
+      },
+      {
+        "MONTH": "May",
+        "COUNT_2019": 1892,
+        "COUNT_2020": 1340
+      },
+      {
+        "MONTH": "Jun",
+        "COUNT_2019": 1452,
+        "COUNT_2020": 214
+      },
+      {
+        "MONTH": "Jul",
+        "COUNT_2019": 1802,
+        "COUNT_2020": 212
+      },
+      {
+        "MONTH": "Aug",
+        "COUNT_2019": 1790,
+        "COUNT_2020": 796
+      },
+      {
+        "MONTH": "Sep",
+        "COUNT_2019": 1534,
+        "COUNT_2020": 962
+      },
+      {
+        "MONTH": "Oct",
+        "COUNT_2019": 1713,
+        "COUNT_2020": 1187
+      },
+      {
+        "MONTH": "Nov",
+        "COUNT_2019": 1550,
+        "COUNT_2020": 820
+      },
+      {
+        "MONTH": "Dec",
+        "COUNT_2019": 1058,
+        "COUNT_2020": 1019
+      }
+    ]
+  },
+  {
+    "category": "DANGEROUS WEAPONS",
+    "data": [
+      {
+        "MONTH": "Jan",
+        "COUNT_2019": 879,
+        "COUNT_2020": 595
+      },
+      {
+        "MONTH": "Feb",
+        "COUNT_2019": 764,
+        "COUNT_2020": 510
+      },
+      {
+        "MONTH": "Mar",
+        "COUNT_2019": 830,
+        "COUNT_2020": 511
+      },
+      {
+        "MONTH": "Apr",
+        "COUNT_2019": 740,
+        "COUNT_2020": 427
+      },
+      {
+        "MONTH": "May",
+        "COUNT_2019": 807,
+        "COUNT_2020": 711
+      },
+      {
+        "MONTH": "Jun",
+        "COUNT_2019": 599,
+        "COUNT_2020": 316
+      },
+      {
+        "MONTH": "Jul",
+        "COUNT_2019": 669,
+        "COUNT_2020": 252
+      },
+      {
+        "MONTH": "Aug",
+        "COUNT_2019": 667,
+        "COUNT_2020": 483
+      },
+      {
+        "MONTH": "Sep",
+        "COUNT_2019": 565,
+        "COUNT_2020": 841
+      },
+      {
+        "MONTH": "Oct",
+        "COUNT_2019": 528,
+        "COUNT_2020": 723
+      },
+      {
+        "MONTH": "Nov",
+        "COUNT_2019": 488,
+        "COUNT_2020": 690
+      },
+      {
+        "MONTH": "Dec",
+        "COUNT_2019": 385,
+        "COUNT_2020": 651
+      }
+    ]
+  },
+  {
+    "category": "FORGERY",
+    "data": [
+      {
+        "MONTH": "Jan",
+        "COUNT_2019": 577,
+        "COUNT_2020": 282
+      },
+      {
+        "MONTH": "Feb",
+        "COUNT_2019": 402,
+        "COUNT_2020": 267
+      },
+      {
+        "MONTH": "Mar",
+        "COUNT_2019": 481,
+        "COUNT_2020": 169
+      },
+      {
+        "MONTH": "Apr",
+        "COUNT_2019": 520,
+        "COUNT_2020": 66
+      },
+      {
+        "MONTH": "May",
+        "COUNT_2019": 379,
+        "COUNT_2020": 151
+      },
+      {
+        "MONTH": "Jun",
+        "COUNT_2019": 380,
+        "COUNT_2020": 35
+      },
+      {
+        "MONTH": "Jul",
+        "COUNT_2019": 416,
+        "COUNT_2020": 18
+      },
+      {
+        "MONTH": "Aug",
+        "COUNT_2019": 339,
+        "COUNT_2020": 48
+      },
+      {
+        "MONTH": "Sep",
+        "COUNT_2019": 353,
+        "COUNT_2020": 108
+      },
+      {
+        "MONTH": "Oct",
+        "COUNT_2019": 370,
+        "COUNT_2020": 172
+      },
+      {
+        "MONTH": "Nov",
+        "COUNT_2019": 327,
+        "COUNT_2020": 201
+      },
+      {
+        "MONTH": "Dec",
+        "COUNT_2019": 255,
+        "COUNT_2020": 335
+      }
+    ]
+  },
+  {
+    "category": "INTOXICATED & IMPAIRED DRIVING",
+    "data": [
+      {
+        "MONTH": "Jan",
+        "COUNT_2019": 436,
+        "COUNT_2020": 321
+      },
+      {
+        "MONTH": "Feb",
+        "COUNT_2019": 404,
+        "COUNT_2020": 384
+      },
+      {
+        "MONTH": "Mar",
+        "COUNT_2019": 478,
+        "COUNT_2020": 239
+      },
+      {
+        "MONTH": "Apr",
+        "COUNT_2019": 400,
+        "COUNT_2020": 70
+      },
+      {
+        "MONTH": "May",
+        "COUNT_2019": 433,
+        "COUNT_2020": 153
+      },
+      {
+        "MONTH": "Jun",
+        "COUNT_2019": 379,
+        "COUNT_2020": 109
+      },
+      {
+        "MONTH": "Jul",
+        "COUNT_2019": 410,
+        "COUNT_2020": 107
+      },
+      {
+        "MONTH": "Aug",
+        "COUNT_2019": 377,
+        "COUNT_2020": 146
+      },
+      {
+        "MONTH": "Sep",
+        "COUNT_2019": 332,
+        "COUNT_2020": 172
+      },
+      {
+        "MONTH": "Oct",
+        "COUNT_2019": 353,
+        "COUNT_2020": 206
+      },
+      {
+        "MONTH": "Nov",
+        "COUNT_2019": 351,
+        "COUNT_2020": 217
+      },
+      {
+        "MONTH": "Dec",
+        "COUNT_2019": 300,
+        "COUNT_2020": 175
+      }
+    ]
+  },
+  {
+    "category": "MURDER & NON-NEGL. MANSLAUGHTE",
+    "data": [
+      {
+        "MONTH": "Jan",
+        "COUNT_2019": 82,
+        "COUNT_2020": 108
+      },
+      {
+        "MONTH": "Feb",
+        "COUNT_2019": 69,
+        "COUNT_2020": 80
+      },
+      {
+        "MONTH": "Mar",
+        "COUNT_2019": 96,
+        "COUNT_2020": 84
+      },
+      {
+        "MONTH": "Apr",
+        "COUNT_2019": 93,
+        "COUNT_2020": 71
+      },
+      {
+        "MONTH": "May",
+        "COUNT_2019": 79,
+        "COUNT_2020": 93
+      },
+      {
+        "MONTH": "Jun",
+        "COUNT_2019": 72,
+        "COUNT_2020": 81
+      },
+      {
+        "MONTH": "Jul",
+        "COUNT_2019": 119,
+        "COUNT_2020": 103
+      },
+      {
+        "MONTH": "Aug",
+        "COUNT_2019": 82,
+        "COUNT_2020": 109
+      },
+      {
+        "MONTH": "Sep",
+        "COUNT_2019": 84,
+        "COUNT_2020": 124
+      },
+      {
+        "MONTH": "Oct",
+        "COUNT_2019": 87,
+        "COUNT_2020": 119
+      },
+      {
+        "MONTH": "Nov",
+        "COUNT_2019": 81,
+        "COUNT_2020": 92
+      },
+      {
+        "MONTH": "Dec",
+        "COUNT_2019": 69,
+        "COUNT_2020": 126
+      }
+    ]
+  },
+  {
+    "category": "PETIT LARCENY",
+    "data": [
+      {
+        "MONTH": "Jan",
+        "COUNT_2019": 1899,
+        "COUNT_2020": 1524
+      },
+      {
+        "MONTH": "Feb",
+        "COUNT_2019": 1815,
+        "COUNT_2020": 1480
+      },
+      {
+        "MONTH": "Mar",
+        "COUNT_2019": 1759,
+        "COUNT_2020": 1228
+      },
+      {
+        "MONTH": "Apr",
+        "COUNT_2019": 1812,
+        "COUNT_2020": 786
+      },
+      {
+        "MONTH": "May",
+        "COUNT_2019": 2017,
+        "COUNT_2020": 1035
+      },
+      {
+        "MONTH": "Jun",
+        "COUNT_2019": 1885,
+        "COUNT_2020": 459
+      },
+      {
+        "MONTH": "Jul",
+        "COUNT_2019": 2010,
+        "COUNT_2020": 491
+      },
+      {
+        "MONTH": "Aug",
+        "COUNT_2019": 1825,
+        "COUNT_2020": 711
+      },
+      {
+        "MONTH": "Sep",
+        "COUNT_2019": 1778,
+        "COUNT_2020": 826
+      },
+      {
+        "MONTH": "Oct",
+        "COUNT_2019": 1800,
+        "COUNT_2020": 870
+      },
+      {
+        "MONTH": "Nov",
+        "COUNT_2019": 1515,
+        "COUNT_2020": 965
+      },
+      {
+        "MONTH": "Dec",
+        "COUNT_2019": 1512,
+        "COUNT_2020": 1031
+      }
+    ]
+  },
+  {
+    "category": "RAPE",
+    "data": [
+      {
+        "MONTH": "Jan",
+        "COUNT_2019": 92,
+        "COUNT_2020": 53
+      },
+      {
+        "MONTH": "Feb",
+        "COUNT_2019": 76,
+        "COUNT_2020": 64
+      },
+      {
+        "MONTH": "Mar",
+        "COUNT_2019": 84,
+        "COUNT_2020": 46
+      },
+      {
+        "MONTH": "Apr",
+        "COUNT_2019": 89,
+        "COUNT_2020": 37
+      },
+      {
+        "MONTH": "May",
+        "COUNT_2019": 94,
+        "COUNT_2020": 47
+      },
+      {
+        "MONTH": "Jun",
+        "COUNT_2019": 67,
+        "COUNT_2020": 40
+      },
+      {
+        "MONTH": "Jul",
+        "COUNT_2019": 86,
+        "COUNT_2020": 47
+      },
+      {
+        "MONTH": "Aug",
+        "COUNT_2019": 55,
+        "COUNT_2020": 52
+      },
+      {
+        "MONTH": "Sep",
+        "COUNT_2019": 84,
+        "COUNT_2020": 52
+      },
+      {
+        "MONTH": "Oct",
+        "COUNT_2019": 88,
+        "COUNT_2020": 52
+      },
+      {
+        "MONTH": "Nov",
+        "COUNT_2019": 48,
+        "COUNT_2020": 35
+      },
+      {
+        "MONTH": "Dec",
+        "COUNT_2019": 37,
+        "COUNT_2020": 43
+      }
+    ]
+  },
+  {
+    "category": "ROBBERY",
+    "data": [
+      {
+        "MONTH": "Jan",
+        "COUNT_2019": 755,
+        "COUNT_2020": 896
+      },
+      {
+        "MONTH": "Feb",
+        "COUNT_2019": 618,
+        "COUNT_2020": 865
+      },
+      {
+        "MONTH": "Mar",
+        "COUNT_2019": 690,
+        "COUNT_2020": 748
+      },
+      {
+        "MONTH": "Apr",
+        "COUNT_2019": 704,
+        "COUNT_2020": 492
+      },
+      {
+        "MONTH": "May",
+        "COUNT_2019": 827,
+        "COUNT_2020": 711
+      },
+      {
+        "MONTH": "Jun",
+        "COUNT_2019": 685,
+        "COUNT_2020": 439
+      },
+      {
+        "MONTH": "Jul",
+        "COUNT_2019": 897,
+        "COUNT_2020": 523
+      },
+      {
+        "MONTH": "Aug",
+        "COUNT_2019": 838,
+        "COUNT_2020": 695
+      },
+      {
+        "MONTH": "Sep",
+        "COUNT_2019": 845,
+        "COUNT_2020": 623
+      },
+      {
+        "MONTH": "Oct",
+        "COUNT_2019": 968,
+        "COUNT_2020": 726
+      },
+      {
+        "MONTH": "Nov",
+        "COUNT_2019": 769,
+        "COUNT_2020": 570
+      },
+      {
+        "MONTH": "Dec",
+        "COUNT_2019": 663,
+        "COUNT_2020": 660
+      }
+    ]
+  },
+  {
+    "category": "SEX CRIMES",
+    "data": [
+      {
+        "MONTH": "Jan",
+        "COUNT_2019": 359,
+        "COUNT_2020": 286
+      },
+      {
+        "MONTH": "Feb",
+        "COUNT_2019": 280,
+        "COUNT_2020": 269
+      },
+      {
+        "MONTH": "Mar",
+        "COUNT_2019": 330,
+        "COUNT_2020": 220
+      },
+      {
+        "MONTH": "Apr",
+        "COUNT_2019": 421,
+        "COUNT_2020": 161
+      },
+      {
+        "MONTH": "May",
+        "COUNT_2019": 416,
+        "COUNT_2020": 271
+      },
+      {
+        "MONTH": "Jun",
+        "COUNT_2019": 369,
+        "COUNT_2020": 174
+      },
+      {
+        "MONTH": "Jul",
+        "COUNT_2019": 380,
+        "COUNT_2020": 207
+      },
+      {
+        "MONTH": "Aug",
+        "COUNT_2019": 339,
+        "COUNT_2020": 206
+      },
+      {
+        "MONTH": "Sep",
+        "COUNT_2019": 338,
+        "COUNT_2020": 214
+      },
+      {
+        "MONTH": "Oct",
+        "COUNT_2019": 349,
+        "COUNT_2020": 292
+      },
+      {
+        "MONTH": "Nov",
+        "COUNT_2019": 285,
+        "COUNT_2020": 217
+      },
+      {
+        "MONTH": "Dec",
+        "COUNT_2019": 286,
+        "COUNT_2020": 213
+      }
+    ]
+  },
+  {
+    "category": "VEHICLE AND TRAFFIC LAWS",
+    "data": [
+      {
+        "MONTH": "Jan",
+        "COUNT_2019": 1705,
+        "COUNT_2020": 856
+      },
+      {
+        "MONTH": "Feb",
+        "COUNT_2019": 1525,
+        "COUNT_2020": 1034
+      },
+      {
+        "MONTH": "Mar",
+        "COUNT_2019": 1621,
+        "COUNT_2020": 631
+      },
+      {
+        "MONTH": "Apr",
+        "COUNT_2019": 1410,
+        "COUNT_2020": 129
+      },
+      {
+        "MONTH": "May",
+        "COUNT_2019": 1331,
+        "COUNT_2020": 349
+      },
+      {
+        "MONTH": "Jun",
+        "COUNT_2019": 1094,
+        "COUNT_2020": 93
+      },
+      {
+        "MONTH": "Jul",
+        "COUNT_2019": 1126,
+        "COUNT_2020": 99
+      },
+      {
+        "MONTH": "Aug",
+        "COUNT_2019": 951,
+        "COUNT_2020": 139
+      },
+      {
+        "MONTH": "Sep",
+        "COUNT_2019": 822,
+        "COUNT_2020": 203
+      },
+      {
+        "MONTH": "Oct",
+        "COUNT_2019": 917,
+        "COUNT_2020": 326
+      },
+      {
+        "MONTH": "Nov",
+        "COUNT_2019": 983,
+        "COUNT_2020": 357
+      },
+      {
+        "MONTH": "Dec",
+        "COUNT_2019": 758,
+        "COUNT_2020": 373
+      }
+    ]
+  }
+]
