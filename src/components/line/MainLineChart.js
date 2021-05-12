@@ -154,10 +154,10 @@ export default function MainLineChart({ data, play, setPlay, filters, setNewsDat
 
 	const formatDateTick = (time) => {
 		const m = moment(time);
-		if (m.month() === 0) {
-			return m.format("MMM, YYYY");
-		}
-		return m.format("MMM");
+		// if (m.month() === 0) {
+		// 	return m.format("MMM, YYYY");
+		// }
+		return m.format("Do MMM, YY");
 	};
 
 	const brushFormatDateTick = (args) => {
