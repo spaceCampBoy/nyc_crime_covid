@@ -64,7 +64,10 @@ export default function MainLineChart({ data, play, setPlay, filters, setNewsDat
 						return p;
 					}
 					const next = data[p.length];
-					filterNewsDate(next.date);
+					if(next)
+					{
+						filterNewsDate(next.date);
+					}
 					return [
 						...p,
 						next,
@@ -82,21 +85,22 @@ export default function MainLineChart({ data, play, setPlay, filters, setNewsDat
 			setReset(false);
 			setPlay(false);
 		}
-
-		if (play && points.length === data.length) {
-			setDomain(domainFixed);
-			setPoints([]);
-		}
-		else if(play)
-		{
-			setPoints(p => {
-				const next = data[p.length];
-				filterNewsDate(next.date);
-				return [
-					...p,
-					next,
-				]
-			})
+		else{
+			if (play && points.length === data.length) {
+				// setDomain(domainFixed);
+				setPoints([]);
+			}
+			else if(play)
+			{
+				setPoints(p => {
+					const next = data[p.length];
+					filterNewsDate(next.date);
+					return [
+						...p,
+						next,
+					]
+				})
+			}
 		}
 	}, [play, reset])
 
@@ -111,7 +115,7 @@ export default function MainLineChart({ data, play, setPlay, filters, setNewsDat
 		const [currentDate, cases] = getCurrentDateOfTimeLapse(data)
 		const getAvgCasesString = () => {
 			if (cases !== '' || cases === 0) {
-				return "7-Day Avg: " + cases;
+				return "Covid Cases 7-Day AVG: " + cases;
 			}
 			return '';
 		}
