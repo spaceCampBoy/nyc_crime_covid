@@ -31,14 +31,14 @@ export default function NYCMap({ data, setFilters }) {
         data={crime_data}
         features={nyc_borough_geo.features}
         margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
-        height={250}
+        height={150}
         fillColor={colorFormater}
         unknownColor="#666666"
         label="properties.BoroName"
         valueFormat=".2s"
         projectionType="orthographic"
-        projectionScale={25000}
-        projectionTranslation={[0.39, 0.5]}
+        projectionScale={20000}
+        projectionTranslation={[0.45, 0.5]}
         projectionRotation={[74.05, -40.7, -360]}
         enableGraticule={true}
         graticuleLineColor="#dddddd"

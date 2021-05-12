@@ -1,14 +1,40 @@
 .main_line_chart{
-	height: 90vh;
+	height: 65vh;
 	width: auto;
 }
 
 .filter_options {
-	min-width: 200px;
-	min-height: 200px;
-	height: 250px;
+	min-width: 160px;
+	min-height: 150px;
+	height: 150px;
+}
+
+.play {
+	height: 25px;
+	width: fit-content;
+}
+
+.playButton{
+	font-size: x-large;
 }
 
 #root{
 	margin: 5px;
+}
+
+.main_text {
+	text-align: left;
+}
+
+.play_button{
+	transform: scale(2);
+	padding: 10px;
+}
+.reset_button{
+	transform: scale(2);
+	padding: 10px;
+}
+
+.slider {
+	padding: 10px;
 }

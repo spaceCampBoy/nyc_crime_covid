@@ -1,0 +1,18 @@
+.news_heading {
+    font-weight: bold !important;
+}
+
+.news {
+    padding: 5px;
+    margin: 10px;
+}
+
+.news_thumbnail {
+    float: left;
+    padding: 5px;
+    padding-bottom: 0px;
+}
+
+.pub_date{
+    font-size: 0.7rem !important;
+}

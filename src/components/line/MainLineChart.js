@@ -14,10 +14,10 @@ import {
 } from "recharts";
 import boro_names_acronyms from "../../data/boro_name_acronym.json";
 import selected_colors from "../../data/boroColors_selected.json";
-export default function MainLineChart({ data, play, setPlay, filters }) {
+export default function MainLineChart({ data, play, setPlay, filters, setNewsDate, reset, setReset, speed }) {
 	const [lines, setlines] = useState([{ key: "ARREST_COUNT_7DAY_AVG", name: "NYC", color: "#fcba03" }])
 	const domainFixed = [
-		moment('2019-01-01').valueOf(),
+		moment('2020-01-01').valueOf(),
 		moment('2020-12-31').valueOf()
 	];
 	const domainFluid = ["auto", "auto"];
@@ -63,27 +63,42 @@ export default function MainLineChart({ data, play, setPlay, filters }) {
 						setPlay(!play);
 						return p;
 					}
-					const next = data[p.length]
-
+					const next = data[p.length];
+					filterNewsDate(next.date);
 					return [
 						...p,
 						next,
 					]
 				})
-			}, 50)
+			}, speed * 1000)
 		}
 	}, [points, setPoints])
 
 	useEffect(() => {
-		if (play) {
+		if(reset)
+		{
+			setDomain(domainFluid);
+			setPoints(data);
+			setReset(false);
+			setPlay(false);
+		}
+
+		if (play && points.length === data.length) {
 			setDomain(domainFixed);
 			setPoints([]);
 		}
-		else {
-			setDomain(domainFluid);
-			setPoints(data);
+		else if(play)
+		{
+			setPoints(p => {
+				const next = data[p.length];
+				filterNewsDate(next.date);
+				return [
+					...p,
+					next,
+				]
+			})
 		}
-	}, [play])
+	}, [play, reset])
 
 	const currentDateLayer = ({ data, width, height }) => {
 		const getCurrentDateOfTimeLapse = (data) => {
@@ -146,6 +161,36 @@ export default function MainLineChart({ data, play, setPlay, filters }) {
 		return moment(time).format("Do MMM, YY");
 	};
 
+	const [fixedNewsFilter, setFixedNewsFilter] = useState(null)
+
+	const onClick = (args) => {
+		if(args)
+		{
+			if (args.activeLabel) {
+				setFixedNewsFilter(args.activeLabel);
+			}
+		}
+		console.log(args)
+	}
+
+	const filterNewsDate = (time) => {
+		const m = moment(time);
+		setNewsDate(m.format("YYYY-MM-DD"));
+	}
+	
+	const onMove = (args) => {
+		if (args.isTooltipActive) {
+			filterNewsDate(args.activeLabel);
+		}
+	} 
+	
+	const onLeave = (args) => {
+		if(fixedNewsFilter)
+		{
+			filterNewsDate(fixedNewsFilter);
+		}
+	} 
+
 	return (
 		<ResponsiveContainer width="100%" height="100%">
 			<LineChart
@@ -158,6 +203,9 @@ export default function MainLineChart({ data, play, setPlay, filters }) {
 					left: 0,
 					bottom: 0,
 				}}
+				onClick={onClick}
+				onMouseMove={onMove}
+				onMouseLeave={onLeave}
 			>
 				<Customized key="date_background" component={currentDateLayer} />
 				<CartesianGrid strokeDasharray="3 3" />
@@ -180,7 +228,7 @@ export default function MainLineChart({ data, play, setPlay, filters }) {
 							strokeWidth="3px"
 							yAxisId="left"
 							type="monotone"
-							name={line.name}
+							name={line.name + " Arrests Count 7-Day Average"}
 							dataKey={line.key}
 							stroke={line.color}
 							dot={false}
@@ -192,7 +240,7 @@ export default function MainLineChart({ data, play, setPlay, filters }) {
 					strokeWidth="3px"
 					yAxisId="right"
 					type="monotone"
-					name="Covid Cases 7Day AVG"
+					name="Covid Confirmed Cases 7-Day AVG"
 					dataKey="COVID_COUNT_7DAY_AVG"
 					stroke="#fc0703"
 					dot={false}
