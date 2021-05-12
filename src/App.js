@@ -100,16 +100,6 @@ function App() {
 
               <Grid contianer justify="center" alignItems="center" alignContent="stretch" align="center" direction="row">
 
-                <Grid item xs={12} md={12}>
-                  <IconButton className="play" color="primary" component="span" onClick={() => setPlay(!play)}>
-                    {!play ? <PlayCircleOutlineIcon className="play_button" /> : <PauseIcon className="play_button" />}
-                  </IconButton>
-
-                  <IconButton className="play" color="primary" component="span" onClick={() => setReset(!reset)}>
-                    <ResetIcon className="reset_button" />
-                  </IconButton>
-                </Grid>
-
                 <Grid item xs={12} md={12} className="slider">
                   <Typography id="discrete-slider" gutterBottom>
                     Speed in Seconds
@@ -125,6 +115,16 @@ function App() {
                     max={10}
                     onChange={sliderValueChanged}
                   />
+
+                <Grid item xs={12} md={12}>
+                  <IconButton className="play" color="primary" component="span" onClick={() => setPlay(!play)}>
+                    {!play ? <PlayCircleOutlineIcon className="play_button" /> : <PauseIcon className="play_button" />}
+                  </IconButton>
+
+                  <IconButton className="play" color="primary" component="span" onClick={() => setReset(!reset)}>
+                    <ResetIcon className="reset_button" />
+                  </IconButton>
+                </Grid>
                 </Grid>
 
               </Grid>
