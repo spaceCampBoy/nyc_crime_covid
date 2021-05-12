@@ -109,9 +109,9 @@ function App() {
                     getAriaValueText={valuetext}
                     aria-labelledby="discrete-slider"
                     valueLabelDisplay="auto"
-                    step={0.5}
+                    step={0.25}
                     marks={true}
-                    min={0.5}
+                    min={0.25}
                     max={10}
                     onChange={sliderValueChanged}
                   />
