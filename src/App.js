@@ -141,7 +141,7 @@ function App() {
         </Grid>
         <Grid item xs={12}>
           <Typography> If you are interested in behind the scene data analysis, check out 
-            <a target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1_jl-N0DS1psS7LyN6e3ySL_ZzHSia3FW/view?usp=sharing"> the explainer Jupyter Notebook.</a>
+            <a target='_blank' rel="noreferrer" href="https://github.com/spaceCampBoy/nyc_crime_covid/blob/gh-pages/nyc-covid-explainer-jupyter-notebook/FinalProject.ipynb"> the explainer Jupyter Notebook.</a>
           </Typography>
         </Grid>
       </Grid>
