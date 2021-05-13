@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { ResponsiveGeoMap } from '@nivo/geo';
 import { nyc_borough_geo } from "../../data/nycGeo";
-import crime_data from "../../data/crimeData/crime_counts.json";
 import selected_colors from "../../data/boroColors_selected.json";
 export default function NYCMap({ data, setFilters }) {
     const unselected_color = "#eeeeee";
@@ -28,7 +27,6 @@ export default function NYCMap({ data, setFilters }) {
 
     return (
     <ResponsiveGeoMap
-        data={crime_data}
         features={nyc_borough_geo.features}
         margin={{ top: 0, right: 0, bottom: 0, left: 0 }}
         height={150}

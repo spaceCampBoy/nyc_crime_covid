@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Paper, Typography, IconButton } from "@material-ui/core";
+import { Grid, Paper, Typography } from "@material-ui/core";
 import './News.css';
 
 export default function News({data}) {

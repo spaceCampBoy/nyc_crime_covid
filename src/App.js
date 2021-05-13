@@ -4,18 +4,18 @@ import useFilters from "./hooks/useFilters/useFilters";
 import MainLineChart from "./components/line/MainLineChart";
 import FocusCrimes from "./components/bars/FocusCrimes";
 import NYCMap from "./components/nycMap/NYCMap";
+import NewsWindow from "./components/news/NewsWindow";
 
 import { Grid, Paper, Typography, IconButton } from "@material-ui/core";
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
+import Slider from '@material-ui/core/Slider';
 import PlayCircleOutlineIcon from '@material-ui/icons/PlayCircleOutline';
 import ResetIcon from '@material-ui/icons/RotateLeftOutlined';
 import PauseIcon from '@material-ui/icons/PauseCircleOutline';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import "./App.css";
 
-import arrest_covid_merged from "./data/arrest_covid_merged.json";
-import NewsWindow from "./components/news/NewsWindow";
-import Slider from '@material-ui/core/Slider';
+import arrests_covid_data from "./data/arrest_covid_merged.json";
 
 function App() {
 
@@ -25,22 +25,7 @@ function App() {
 
   const filters = useFilters();
 
-  const dec_31_2019 = 1577750400000;
-  const arrests_covid_data = arrest_covid_merged.filter(e => e.date > dec_31_2019);
-
   const theme = createMuiTheme({
-    // palette: {
-    //   primary: {
-    //     main: '#ff4400',
-    //   },
-    //   secondary: {
-    //     light: '#0066ff',
-    //     main: '#0044ff',
-    //     contrastText: '#ffcc00',
-    //   },
-    //   contrastThreshold: 3,
-    //   tonalOffset: 0.2,
-    // },
     typography: {
       fontFamily: [
         '-apple-system',
@@ -92,7 +77,7 @@ function App() {
             <Typography>
               <b>The line chart</b> shows the 7-day average for New York City arrest counts and confirmed covid cases.
               <b> Hover on chart</b>, to see the news about covid-19 or crimes under the section New York Times. <b>The map of New York City</b> can be used to filter borough data.
-              Finally, <b>the play button</b> animates the line chart.
+              <b> The play button</b> animates the line chart. You can adjust <b>the animation speed</b> using the slider above the play button.
             </Typography>
           </Grid>
           <Grid item xs={12} md={2}>

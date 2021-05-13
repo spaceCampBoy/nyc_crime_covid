@@ -16,10 +16,10 @@ import boro_names_acronyms from "../../data/boro_name_acronym.json";
 import selected_colors from "../../data/boroColors_selected.json";
 export default function MainLineChart({ data, play, setPlay, filters, setNewsDate, reset, setReset, speed }) {
 	const [lines, setlines] = useState([{ key: "ARREST_COUNT_7DAY_AVG", name: "NYC", color: "#fcba03" }])
-	const domainFixed = [
-		moment('2020-01-01').valueOf(),
-		moment('2020-12-31').valueOf()
-	];
+	// const domainFixed = [
+	// 	moment('2020-01-01').valueOf(),
+	// 	moment('2020-12-31').valueOf()
+	// ];
 	const domainFluid = ["auto", "auto"];
 	const [domain, setDomain] = useState(domainFluid)
 
@@ -203,8 +203,8 @@ export default function MainLineChart({ data, play, setPlay, filters, setNewsDat
 				data={points}
 				margin={{
 					top: 10,
-					right: 0,
-					left: 0,
+					right: 10,
+					left: 10,
 					bottom: 0,
 				}}
 				onClick={onClick}
@@ -221,8 +221,8 @@ export default function MainLineChart({ data, play, setPlay, filters, setNewsDat
 					domain={domain}
 					minTickGap={30}
 				/>
-				<YAxis yAxisId="left" />
-				<YAxis yAxisId="right" orientation="right" />
+				<YAxis yAxisId="left" label={{ value: 'Arrests Count', angle: -90, position: 'insideRight' ,offset:50}}/>
+				<YAxis yAxisId="right" orientation="right" label={{ value: 'Covid Cases', angle: -90, position:'insideRight' }} />
 				<Tooltip labelFormatter={tooltipFormater} />
 				<Legend />
 				{

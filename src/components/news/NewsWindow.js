@@ -1,7 +1,8 @@
-import React, {useEffect} from 'react';
-import { Grid, Paper, Typography, IconButton } from "@material-ui/core";
+import React from 'react';
+import { Grid, Paper, Typography } from "@material-ui/core";
 import news from '../../data/news/news-data.json';
 import News from "./News";
+import moment from 'moment';
 export default function NewsWindow({ newsDate }) {
 
     const showCovidNews = (data) => {
@@ -32,12 +33,21 @@ export default function NewsWindow({ newsDate }) {
         }
     }
 
+    const showNewsDate = (date) => {
+        const dateString = moment(date).format("Do [of] MMMM, YYYY");
+        return <>
+            <Grid item>
+                <Typography variant="body1">{dateString}</Typography>
+            </Grid></>
+    }
+
     return (
         <Paper>
             <Grid container justify="center" alignItems="center" align="center" direction="column">
                 <Grid item>
                     <Typography variant="h5">New York Times</Typography>
                 </Grid>
+                {showNewsDate(newsDate)}
                 {showCovidNews(news)}
                 {showCrimeNews(news)}
             </Grid>
