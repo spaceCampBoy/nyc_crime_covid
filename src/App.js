@@ -39,7 +39,8 @@ function App() {
         '"Segoe UI Emoji"',
         '"Segoe UI Symbol"',
       ].join(','),
-    },
+    }
+    
   });
   const barChartsRef = useRef()
 
@@ -65,6 +66,7 @@ function App() {
 
         <Grid item container justify="center" alignItems="stretch" xs={12} md={12} spacing={2} >
           <Grid item xs={12} md={8} className="main_text">
+            <Paper> 
             <Typography variant="h4">Crimes in New York City and Covid-19</Typography>
             <Typography>
               COVID-19 has had a big impact on the day-to-day life of a big part of the population worldwide.
@@ -79,6 +81,7 @@ function App() {
               <b> Hover on chart</b>, to see the news about covid-19 or crimes under the section New York Times. <b>The map of New York City</b> can be used to filter borough data.
               <b> The play button</b> animates the line chart. You can adjust <b>the animation speed</b> using the slider above the play button.
             </Typography>
+          </Paper>
           </Grid>
           <Grid item xs={12} md={2}>
             <Paper className="filter_options">
@@ -122,9 +125,11 @@ function App() {
           </Grid>
         </Grid>
 
-        <Grid item container xs={12} md={12} justify="center">
-          <Grid item xs={12} md={8} className="main_line_chart" >
+        <Grid item container xs={12} md={12} justify="center" spacing={2}>
+          <Grid item xs={12} md={8}  >
+            <Paper className="main_line_chart">
             <MainLineChart data={arrests_covid_data} play={play} setPlay={setPlay} reset={reset} setReset={setReset} filters={filters} setNewsDate={setNewsDate} speed={sliderSpeed}></MainLineChart>
+          </Paper>
           </Grid>
           <Grid item xs={12} md={4} >
             <NewsWindow newsDate={newsDate}></NewsWindow>

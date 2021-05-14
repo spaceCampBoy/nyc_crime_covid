@@ -22,7 +22,7 @@ export default function MainLineChart({ data, play, setPlay, filters, setNewsDat
 	// ];
 	const domainFluid = ["auto", "auto"];
 	const [domain, setDomain] = useState(domainFluid)
-
+	const [animation, setAnimation] = useState(true)
 	const filterLines = (filters) => {
 		const filtered_lines = [];
 
@@ -81,6 +81,7 @@ export default function MainLineChart({ data, play, setPlay, filters, setNewsDat
 		if(reset)
 		{
 			setDomain(domainFluid);
+			setAnimation(true);
 			setPoints(data);
 			setReset(false);
 			setPlay(false);
@@ -88,6 +89,7 @@ export default function MainLineChart({ data, play, setPlay, filters, setNewsDat
 		else{
 			if (play && points.length === data.length) {
 				// setDomain(domainFixed);
+				setAnimation(false);
 				setPoints([]);
 			}
 			else if(play)
@@ -236,6 +238,7 @@ export default function MainLineChart({ data, play, setPlay, filters, setNewsDat
 							dataKey={line.key}
 							stroke={line.color}
 							dot={false}
+							isAnimationActive={animation}
 						/>
 					})
 				}
@@ -248,6 +251,7 @@ export default function MainLineChart({ data, play, setPlay, filters, setNewsDat
 					dataKey="COVID_COUNT_7DAY_AVG"
 					stroke="#fc0703"
 					dot={false}
+					isAnimationActive={animation}
 				/>
 
 				<Brush tickFormatter={brushFormatDateTick} />
